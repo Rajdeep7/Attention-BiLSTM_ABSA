@@ -35,6 +35,7 @@ GLOVE_EMBEDDINGS_FILE = os.path.join(*[PROJECT_ROOT_DIR, 'dataset', 'glove.840B.
 TMP_GLOVE_EMBEDDINGS_FILE = os.path.join(*[PROJECT_ROOT_DIR, 'dataset', 'test_word2vec.txt'])
 FASTTEXT_EN_EMBEDDINGS_FILE = os.path.join(*[PROJECT_ROOT_DIR, 'dataset', 'crawl-300d-2M-subword.vec'])
 FASTTEXT_EN_EMBEDDINGS_MODEL = os.path.join(*[PROJECT_ROOT_DIR, 'dataset', 'cc.en.300.bin'])
+#FASTTEXT_EN_EMBEDDINGS_MODEL = ('/Users/rajdeepsurolia/Downloads/ebooks/TUM/APC-NLP/project-ABSA/data/cc.en.300.bin')
 FASTTEXT_DE_EMBEDDINGS_FILE = os.path.join(*[PROJECT_ROOT_DIR, 'dataset', 'wiki.de.vec'])
 FASTTEXT_DE_EMBEDDINGS_MODEL = os.path.join(*[PROJECT_ROOT_DIR, 'dataset', 'wiki.de.bin'])
 SELF_TRAINED_FASTTEXT_DE_EMBEDDINGS_MODEL = os.path.join(*[PROJECT_ROOT_DIR, 'dataset', 'germeval_100.de.bin'])

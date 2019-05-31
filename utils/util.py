@@ -13,7 +13,7 @@ from utils.data_util import read_binary, train_loader
 from config.tensor_names import *
 import fastText
 #using FastText from py
-from pyfasttext import FastText
+#from pyfasttext import FastText
 
 
 def load_elmo_emebddings():
@@ -48,7 +48,7 @@ def load_oov_fastText_embeddings(lang = 'en', self_trained = False):
             model_path = FASTTEXT_DE_EMBEDDINGS_MODEL
         model = fastText.load_model(model_path)
     else:
-        model = FastText.load_model(FASTTEXT_EN_EMBEDDINGS_MODEL) # from fastText to FastText
+        model = fastText.load_model('/Users/rajdeepsurolia/Downloads/ebooks/TUM/APC-NLP/project-ABSA/dataset/cc.en.300.bin') 
     return model
 
 
