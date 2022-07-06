@@ -20,7 +20,7 @@ flatbuffers==1.10
 funcsigs==1.0.2
 gast==0.2.0
 grpcio==1.14.1
-html5lib==0.9999999
+html5lib==0.999999999
 idna==2.7
 ipykernel==4.9.0
 ipython==6.5.0
